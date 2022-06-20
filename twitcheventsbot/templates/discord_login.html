@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Please log in with discord to continue</h1>
+<a class="btn btn-primary" href="{{ url_for('discord_oauth') }}" role="button">Discord Login</a>
+{% endblock %}
