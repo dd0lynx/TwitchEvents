@@ -5,8 +5,13 @@ setup:
 
 install with pip:
 flask
+flask-login
+Flask-WTF
+bootstrap-flask
+Flask-SQLAlchemy
 requests
 pynacl
+python-dotenv
 
 create a .env file with these values set:
 TWITCH_CLIENT_ID=
